@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9ecdec6b;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0px 4px 6px rgb(121, 189, 241);
+  }
+  
+  input {
+    width: 60%;
+    padding: 8px;
+    margin-bottom: 10px;
+    color: #66b5dd;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #96c6de;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background-color: #b5cfdd;
+  }
+  
+  h1 {
+    color: #66b5dd;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #d4ecf8;
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  /* 標記完成時 */
+  li.completed {
+    text-decoration: line-through;
+    color: rgb(121, 189, 241);
+  }
+  
+  /* 過濾按鈕容器 */
+  .filters {
+    margin: 10px 0;
+  }
+  

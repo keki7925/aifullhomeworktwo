@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>待辦事項清單</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>待辦事項</h1>
+    <input type="text" id="taskInput" placeholder="輸入待辦事項...">
+    <button onclick="addTask()">新增</button>
+    
+    <!-- 過濾按鈕 -->
+    <div class="filters">
+      <button onclick="setFilter('all')">全部</button>
+      <button onclick="setFilter('completed')">完成</button>
+      <button onclick="setFilter('incomplete')">未完成</button>
+    </div>
+    
+    <ul id="taskList"></ul>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
+
